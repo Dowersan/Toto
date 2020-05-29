@@ -1,0 +1,123 @@
+/* #98ff98 */
+/* #00cc00 */
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+h2{
+    font-weight: 400;
+}
+p{
+    font-weight: 300;
+}
+.container{
+    margin: 0 auto;
+    width: 90%;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.text-center{
+    text-align: center;
+}
+.columna{
+    background: rgb(228, 228, 228);
+    color: #333;
+    border: 1px solid #333;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 5px #888;
+    width: 23%;
+    box-sizing: border-box;
+}
+
+.btn-gris{
+    background: #9c9c9c;
+    display: block;
+    padding: 10px;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+
+/* CSS VIVO */
+.columna-viva{
+    background: #ffb74d;
+    color: #333;
+    border: 2px solid #d9534f;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 5px #888;
+    width: 23%;
+    box-sizing: border-box;
+}
+
+.btn-gris:hover{
+   background: #d9534f;
+}
+
+.btn-vivo{
+    background: #d9534f;
+    display: block;
+    padding: 10px;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+.btn-vivo:hover{
+   background: #888;
+}
+
+.bloque{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;   
+}
+
+.b {
+    border: 0;
+    background: none;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #72E842;
+    padding: 14px 40px;
+    outline: none;
+    color: #00cc00;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.b:hover{
+    background: #00cc00;
+    color: #fff;
+    transform: scale(1.1);
+}
+
+
+@media(max-width: 1070px){
+    .columna{
+        width: 45%;
+        margin-bottom: 20px;
+    }
+    .columna-viva{
+        width: 45%;
+        margin-bottom: 20px;
+    }
+}
+@media(max-width: 600px){
+    .columna{
+        width: 100%;
+        margin-bottom: 20px;
+    } 
+    .columna-viva{
+        width: 100%;
+        margin-bottom: 20px;
+    } 
+}
